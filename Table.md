@@ -5,8 +5,8 @@ ex:['name','age','gender']
 
 The body should be array of objects
 ex: const data = [
-  { name: "Anom", age: 19, gender: "Male" },
-  { name: "Megha", age: 19, gender: "Female" },
-  { name: "Subham", age: 25, gender: "Male"},
+  { name: "Aishwarya", age: 30, gender: "Female" },
+  { name: "Rohit", age: 32, gender: "Male" },
+  { name: "Ojas", age: 28, gender: "Male"},
 ]
  
