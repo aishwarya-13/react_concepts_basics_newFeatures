@@ -7,18 +7,29 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import store from './store';
 import Cart from './components/redux-examples/cart';
+import AppRenderProps from './components/render-props/App-render-props'
 
 function App() {
   return (
-    <Provider store={store}>
       <div className="App">
         <header className="App-header">
-          <Cart/>
+          <AppRenderProps/>
         </header>
       </div>
-    </Provider>
-    
   );
 }
+
+// function App() {
+//   return (
+//     <Provider store={store}>
+//       <div className="App">
+//         <header className="App-header">
+//           <Cart/>
+//         </header>
+//       </div>
+//     </Provider>
+    
+//   );
+// }
 
 export default App;
