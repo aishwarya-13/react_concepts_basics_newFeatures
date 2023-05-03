@@ -24,5 +24,5 @@ function ClickIncrease (props){
     )
 }
 
-//We have now converted ClickIncrease to an HOC function.
+//We have now converted HoverIncrease to an HOC function.
 export default withCounter(ClickIncrease, 10);

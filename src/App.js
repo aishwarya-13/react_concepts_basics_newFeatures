@@ -10,12 +10,14 @@ import Cart from './components/redux-examples/cart';
 import AppRenderProps from './components/render-props/App-render-props'
 import AppContext from './components/context-example/App';
 import AppRef from './components/refs-example/App-Ref';
+import Controlled from './components/controlled-uncontrolled-components/controlled';
+import Uncontrolled from './components/controlled-uncontrolled-components/uncontrolled';
 
 function App() {
   return (
       <div className="App">
         <header className="App-header">
-          <AppRef/>
+          <Uncontrolled/>
         </header>
       </div>
   );
