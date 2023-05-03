@@ -15,7 +15,8 @@ export default HOCFunctionality;
 
 
 /**
- * A higher order component is just a function that takes a component as one of its arguments, messes with it, and then returns back its changed version.
+ * A higher order component is just a function that takes a component as one of its arguments, 
+ * messes with it, and then returns back its changed version.
  * A (HOC) is an advanced technique in React for reusing component logic.
  * They are a pattern that emerges from React’s compositional nature.
  * Using HOC we can share props and state variables.
