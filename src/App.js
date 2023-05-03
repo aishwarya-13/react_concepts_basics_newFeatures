@@ -12,12 +12,13 @@ import AppContext from './components/context-example/App';
 import AppRef from './components/refs-example/App-Ref';
 import Controlled from './components/controlled-uncontrolled-components/controlled';
 import Uncontrolled from './components/controlled-uncontrolled-components/uncontrolled';
+import Division from './components/error-handling/Division'
 
 function App() {
   return (
       <div className="App">
         <header className="App-header">
-          <Uncontrolled/>
+          <Division/>
         </header>
       </div>
   );
