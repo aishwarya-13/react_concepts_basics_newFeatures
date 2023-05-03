@@ -8,12 +8,13 @@ import { Provider } from 'react-redux';
 import store from './store';
 import Cart from './components/redux-examples/cart';
 import AppRenderProps from './components/render-props/App-render-props'
+import AppContext from './components/context-example/App';
 
 function App() {
   return (
       <div className="App">
         <header className="App-header">
-          <AppRenderProps/>
+          <AppContext/>
         </header>
       </div>
   );
