@@ -9,12 +9,13 @@ import store from './store';
 import Cart from './components/redux-examples/cart';
 import AppRenderProps from './components/render-props/App-render-props'
 import AppContext from './components/context-example/App';
+import AppRef from './components/refs-example/App-Ref';
 
 function App() {
   return (
       <div className="App">
         <header className="App-header">
-          <AppContext/>
+          <AppRef/>
         </header>
       </div>
   );
